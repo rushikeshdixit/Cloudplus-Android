@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Cloud+</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_delete">Delete</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="box">Box</string>
+    <string name="google_drive">GoogleDrive</string>
+    <string name="onedrive">OneDrive</string>
+    <string name="title_activity_file_viewer">Your Cloud</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introduction">Welcome to the Cloud+ </string>
+    <string name="doculink"><a href="http://docs.cloudrail.com"></a></string>
+    <string name="for_devs"></string>
+</resources>

@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloudrail.fileviewer.Home">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/doculink"
+                android:id="@+id/link" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Cloud+"
+        android:id="@+id/textView9"
+        android:layout_gravity="left|top"
+        android:textColor="#3033e7"
+        android:textAlignment="center"
+        android:textSize="36dp" />
+
+    <ImageView
+        android:layout_width="2086dp"
+        android:layout_height="172dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center"
+        android:src="@drawable/sources_skydrive_32" />
+
+</FrameLayout>
